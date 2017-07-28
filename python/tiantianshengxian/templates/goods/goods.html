@@ -1,0 +1,186 @@
+{%extends "_base.html"%}
+{%block title%}天天生鲜-商品详情页{%endblock%}
+{% block script %}
+{{ block.super }}
+<script type="text/javascript">
+// 加入购物车
+function addCart(){
+    var count = $('.num_show').val();
+    var goods_id = $('.goods_detail_list h3').attr('goods_id');
+    $.post('/cart/addCart/',
+        {gid:goods_id,goodCount:count},
+        function(data){
+            var $add_x = $('#add_cart').offset().top;
+            var $add_y = $('#add_cart').offset().left;
+
+            var $to_x = $('#show_count').offset().top;
+            var $to_y = $('#show_count').offset().left;
+
+            $(".add_jump").css({'left':$add_y+80,'top':$add_x+10,'display':'block'})
+            $(".add_jump").stop().animate({'left': $to_y+7, 'top': $to_x+7}, "fast", function() {
+                $(".add_jump").fadeOut('fast',function(){
+                    $('#show_count').html(data);
+                });
+            });
+        })
+}
+
+$(function () {
+        $(".add").click(function () {
+        var num =  parseFloat($(this).prev("input").attr('value'),10) + 1;
+        $(this).prev("input").attr({value:num});
+        var prize = parseFloat($('.prize_bar').children('.show_pirze').children().html(),10)
+        var num = parseFloat($('.add').prev("input").attr('value'),10)
+        var total = (prize *1000* num) /1000
+        $('.total').children().text(total.toFixed(2) + '元')
+        $(".num_show").prop("value",$(".num_show").attr('value'))
+    })
+})
+$(function () {
+    $(".minus").click(function () {
+    var num1 =  parseFloat($(this).prev().prev().attr('value'),10) - 1;
+    if(num1 > 0){
+        $(this).prev().prev().attr({value:num1});
+        var prize = parseFloat($('.prize_bar').children('.show_pirze').children().html(),10)
+        var num = parseFloat($('.add').prev("input").attr('value'),10)
+        var total = (prize *1000* num) /1000
+
+        $('.total').children().text(total.toFixed(2) + '元')
+        $(".num_show").prop("value",$(".num_show").attr('value'))
+    }
+    else{
+        num1 = 1
+        $(this).prev().prev().attr({value:num1});
+    }
+})
+})
+$(function(){
+    $(".buy_btn").click(function(){
+        var value = $(".num_show").attr('value');
+      	var id = $(".goods_detail_list h3").attr('goods_id');
+        items = [{count:value, gid:id},{}]
+        $.post('/order/confirm/',{items:JSON.stringify(items), isCart:0}, function(data){
+            url = '/order/place/?authCode='+data
+            console.log(url)
+            location.assign(url)
+        })
+    })
+})
+{#$(function(){#}
+{#    $(".add_cart").click(function(){#}
+{#        var value = $(".num_show").attr('value');#}
+{#      	var id = $(".goods_detail_list h3").attr('goods_id');#}
+{#      	$.post('/cart/addCart/',{gid:id,goodcount:value},function(date){#}
+{#      		console.log(date)#}
+{#      	})#}
+{#    })#}
+{# })#}
+$(function(){
+    $(".num_show").change(function(){
+        var endValue = document.getElementById("count").value
+        if ( isNaN(endValue) ){
+            alert("非法字符！");
+        }else{
+            console.log(endValue)
+            $(this).attr("value", endValue);
+            var num = parseFloat($('.add').prev("input").attr('value'),10)
+            var prize = parseFloat($('.prize_bar').children('.show_pirze').children().html(),10)
+            var total = (prize *1000* num) /1000
+            $('.total').children().text(total.toFixed(2) + '元')
+        }
+    })
+})
+			
+
+	
+	
+</script>
+
+{% endblock %}
+{%block content%}
+
+    {% include '_index_head.html' %}
+	<div class="breadcrumb">
+		<a href="#">全部分类</a>
+		<span>></span>
+		<a href="/goods/{{goods.gtype.cssClass}}/?num=1">{{goods.gtype.title}}</a>
+		<span>></span>
+		<a href="#">商品详情</a>
+	</div>
+
+	<div class="goods_detail_con clearfix">
+		<div class="goods_detail_pic fl"><img src={{goods.gdetail}}></div>
+
+		<div class="goods_detail_list fr">
+			<h3 goods_id={{ goods.id }}>{{goods.gtitle}}</h3>
+			<p>{{goods.ginfo}}</p>
+			<div class="prize_bar">
+				<span class="show_pirze">¥<em>{{goods.gprice}}</em></span>
+				<span class="show_unit">单  位：500g</span>
+			</div>
+			<div class="goods_num clearfix">
+				<div class="num_name fl">数 量：</div>
+				<div class="num_add fl">
+					<input type="text" id="count" class="num_show fl" value="1">
+					<a href="javascript:;" class="add fr">+</a>
+					<a href="javascript:;" class="minus fr">-</a>	
+				</div> 
+			</div>
+			<div class="total">总价：<em>{{goods.gprice}}元</em></div>
+			<div class="operate_btn">
+				<a href="javascript:;" class="buy_btn">立即购买</a>
+				<a href="javascript:;" class="add_cart" id="add_cart" onclick="addCart()">加入购物车</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="main_wrap clearfix">
+		<div class="l_wrap fl clearfix">
+			<div class="new_goods">
+				<h3>新品推荐</h3>
+				<ul>
+					<li>
+					{% for b in a%}
+						<a href="/goods/{{ cssclass }}/{{b.gtitle}}"><img src={{b.gpath}}></a>
+						<h4><a href="#">{{b.gtitle}}</a></h4>
+						<div class="prize">￥{{b.gprice}}</div>
+					
+					{% endfor%}
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="r_wrap fr clearfix">
+			<ul class="detail_tab clearfix">
+				<li class="active">商品介绍</li>
+				<li>评论</li>
+			</ul>
+
+			<div class="tab_content">
+				<dl>
+					<dt>商品详情：</dt>
+					<dd>{{goods.gdesc}}</dd>
+				</dl>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>		
+		</div>
+		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+		<p>电话：010-****888    京ICP备*******8号</p>
+	</div>
+	<div class="add_jump"></div>
+
+
+{%endblock%}

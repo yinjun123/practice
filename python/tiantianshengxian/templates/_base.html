@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>{% block title %}{% endblock %}</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+	<script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'users/jquery.cookie.js' %}"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#exit').hide();
+            $('#exit').css({fontFamily:'Microsoft Yahei',color:"#666"});
+            $('.login_info').mouseover(function () {
+                $('#exit').show();
+                $('#loginname').hide();
+                var time1 = setTimeout(look,3000)
+                function look () {
+                    $('#exit').hide();
+                    $('#loginname').show();
+                }
+            })
+        })
+            
+        $(function () {
+            var time2 = setTimeout(mm,10000)
+            function mm() {
+                $('.message {{ message.tags }}').hide();
+            }
+        })
+    </script>
+</head>
+<body>
+{% block body %}
+	{% block nav %}
+	<div class="header_con">
+		<div class="header">
+			<div class="welcome fl">欢迎来到天天生鲜!</div>
+			<div class="fr">
+                {% if request.userinfo %}
+				<div class="login_info fl">
+					<em id="loginname">欢迎您:{{ request.userinfo.name }}</em>
+                    <a href="{% url 'users:delsession' %}" id="exit">退出登陆</a>
+				</div>
+                <div class="user_link fl">
+					<span>|</span>
+					<a href="{% url 'users:manage-info' %}">用户中心</a>
+					<span>|</span>
+					<a href="{% url "cart:cartInfo" %}">我的购物车</a>
+					<span>|</span>
+					<a href="{% url 'users:manage-orders' %}">我的订单</a>
+				</div>
+                {% else %}
+				<div class="login_btn fl">
+					<a href="{% url 'users:login' %}">登录</a>
+					<span>|</span>
+					<a href="{% url 'users:register' %}">注册</a>
+				</div>
+                {% endif %}
+			</div>
+		</div>		
+	</div>
+	{% endblock %}
+    {% block message %}
+        {% for message in messages %}
+        <div class="message {{ message.tags }}">
+            <p>{{ message }}</p>
+        </div>
+        {% endfor %}
+    {% endblock %}
+
+	{% block content %}
+	{% endblock %}
+
+	{% block footer %}
+	<div class="footer">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>		
+		</div>
+		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+		<p>电话：010-****888    京ICP备*******8号</p>
+	</div>
+	{% endblock %}
+{% endblock %}
+{% block script %}
+	<script type="text/javascript" src="{% static 'js/slide.js' %}"></script>
+    {% endblock %}
+</body>
+</html>

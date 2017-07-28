@@ -1,0 +1,23 @@
+:
+http://oms.sdzz.la:8080/admin/overduecollection/getYuQiBorrowUserList
+:
+http://oms.sdzz.la:8080/admin/borrowBillCount/getBorrowBillPaidedList
+:
+http://oms.sdzz.la:8080/admin/user/getUserInfoList
+
+
+120.92.74.189
+root
+iZtBC2XWscAoFan3
+Rf804dhu31vm6H9i4shg3j19kn65dQ
+
+
+
+http://heyiyi.blog.51cto.com/205455/1198593/
+
+1.将数据保存到mysql中
+2.将mysql中的字段加以修改
+3.存储过程中要将数据去重
+4.将爬虫部署到服务器
+5.按照逾期天数将数据进行分表
+6.只需要4个字段 姓名，入库时间，手机号，id 也是手机号，逾期天数

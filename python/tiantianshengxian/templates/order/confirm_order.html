@@ -1,0 +1,18 @@
+        <ul class="goods_list_th clearfix">
+			<li class="col01">商品名称</li>
+			<li class="col02">商品单位</li>
+			<li class="col03">商品价格</li>
+			<li class="col04">数量</li>
+			<li class="col05">小计</li>
+		</ul>
+        {% for temp in data %}
+		<ul class="goods_list_td clearfix">
+			<li class="col01">0</li>
+			<li class="col02"><img src="{{ temp.goods.gpath }}"></li>
+			<li class="col03">{{ temp.goods.gtitle }}</li>
+			<li class="col04">{{ temp.goods.gunit }}</li>
+			<li class="col05">{{ temp.goods.gprice }}元</li>
+			<li class="col06">{{ temp.goodCount }}</li>
+			<li class="col07">0</li>
+		</ul>
+        {% endfor %}

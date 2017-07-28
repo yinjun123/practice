@@ -1,0 +1,32 @@
+
+	<div class="search_bar clearfix">
+		<a href="{% url 'website:index' %}" class="logo fl"><img src="/static/images/logo.png"></a>
+		<div class="search_con fl">
+			{% include '_searchform.html' %}
+		</div>
+		<div class="guest_cart fr">
+			<a href="{% url 'cart:cartInfo' %}" class="cart_name fl">我的购物车</a>
+			<div class="goods_count fl" id="show_count">{{ cartGoodsCount }}</div>
+		</div>
+	</div>
+
+	<div class="navbar_con">
+		<div class="navbar clearfix">
+			<div class="subnav_con fl">
+				<h1>全部商品分类</h1>
+				<span></span>
+				<ul class="subnav">
+				{% for i in type_all %}
+					<li><a href="/goods/{{i.cssClass}}/?num=1" class={{i.cssClass}}>{{i.title}}</a></li>
+				{% endfor %}
+                </ul>
+			</div>
+			<ul class="navlist fl">
+				<li><a href="{% url 'website:index' %}">首页</a></li>
+				<li class="interval">|</li>
+				<li><a href="">手机生鲜</a></li>
+				<li class="interval">|</li>
+				<li><a href="">抽奖</a></li>
+			</ul>
+		</div>
+	</div>

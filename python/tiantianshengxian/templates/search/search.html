@@ -1,0 +1,44 @@
+{% extends 'website/index.html'%}
+{% block script %}
+<script type="text/javascript">
+$(function () {
+    $('.add_goods').click(function () {
+        goods_id = $(this).attr("value")
+        $.post('/cart/addCart/',
+        {gid:goods_id},
+        function(data){
+            $('.goods_count').html(data);
+        })
+    })
+})
+</script>
+{% endblock script %}
+{% block content1 %}
+<div id="makecenter" style="margin-left: 50px">
+{% if query %}
+    <ul class="goods_type_list clearfix">
+    {% for result in page.object_list %}
+        <li>
+        <a href="/goods/{{result.object.gtype.cssClass}}/{{result.object.gtitle}}"><img src={{result.object.gpath}}></a>
+        <h4><a href="#">{{result.object.gtitle}}</a></h4>
+        <div class="operate">
+            <span class="prize">￥{{result.object.gprice}}</span>
+            <span class="unit">{{result.object.gprice}}/500g</span>
+            <a href="#" class="add_goods" title="加入购物车" value ={{result.object.id}} ></a>
+        </div>
+        </li>
+        {% empty %}
+        <p style="font-size: 20px;text-align: center">很遗憾，没能找到</p>
+        <div style="text-align: center"><img src="/static/images/nofind.jpeg" alt=""></div>
+    {% endfor %}
+    </ul>
+    {% if page.has_previous or page.has_next %}
+        <div>
+            {% if page.has_previous %}<a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo; 上一页{% if page.has_previous %}</a>{% endif %}
+        |
+            {% if page.has_next %}<a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}下一页 &raquo;{% if page.has_next %}</a>{% endif %}
+        </div>
+    {% endif %}
+{% endif %}
+</div>
+{% endblock content1 %}

@@ -1,0 +1,39 @@
+{% extends '_base.html' %}
+{% load static %}
+{% block title %}用户中心-全部订单{% endblock %}
+{% block script %}
+    <script type="text/javascript" src="/static/js/all_order.js"></script><script></script>
+{% endblock %}
+{% block content %}
+	<div class="search_bar clearfix">
+		<a href="{% url 'website:index' %}" class="logo fl"><img src="{% static 'images/logo.png' %}"></a>
+		<div class="sub_page_name fl">|&nbsp;&nbsp;&nbsp;&nbsp;用户中心</div>
+		<div class="search_con fr">
+        {% include '_searchform.html' %}
+		</div>		
+	</div>
+
+	<div class="main_con clearfix">
+		<div class="left_menu_con clearfix">
+			<h3>用户中心</h3>
+			<ul>
+				<li><a href="{% url 'users:manage-info' %}">· 个人信息</a></li>
+				<li><a href="#" class="active">· 全部订单</a></li>
+				<li><a href="{% url 'users:manage-address' %}">· 收货地址</a></li>
+			</ul>
+		</div>
+		<div class="right_content clearfix">
+				<h3 class="common_title2">全部订单</h3>
+                <div class="order_list"></div>
+				<div class="pagenation">
+{#					<a class="noaction"><上一页</a>#}
+{#					<a href="#" class="active">1</a>#}
+{#					<a href="#">2</a>#}
+{#					<a href="#">3</a>#}
+{#					<a href="#">4</a>#}
+{#					<a href="#">5</a>#}
+{#					<a href="#">下一页></a>#}
+				</div>
+		</div>
+	</div>
+{% endblock %}

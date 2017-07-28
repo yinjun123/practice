@@ -1,0 +1,548 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	cart/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	goods/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	order/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	users/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170105_1011.py	cart/migrations/0002_auto_20170105_1011.py	1;"	kind:file	line:1
+0002_auto_20170105_1011.py	order/migrations/0002_auto_20170105_1011.py	1;"	kind:file	line:1
+0002_auto_20170105_1446.py	users/migrations/0002_auto_20170105_1446.py	1;"	kind:file	line:1
+0002_auto_20170105_1620.py	users/migrations/0002_auto_20170105_1620.py	1;"	kind:file	line:1
+0002_auto_20170105_1855.py	users/migrations/0002_auto_20170105_1855.py	1;"	kind:file	line:1
+0002_auto_20170106_1455.py	users/migrations/0002_auto_20170106_1455.py	1;"	kind:file	line:1
+0002_goodsinfo_ginfo.py	goods/migrations/0002_goodsinfo_ginfo.py	1;"	kind:file	line:1
+0003_auto_20170105_1448.py	order/migrations/0003_auto_20170105_1448.py	1;"	kind:file	line:1
+0003_goodsinfo_gclick.py	goods/migrations/0003_goodsinfo_gclick.py	1;"	kind:file	line:1
+0003_merge_20170105_2306.py	users/migrations/0003_merge_20170105_2306.py	1;"	kind:file	line:1
+0004_auto_20170105_1855.py	goods/migrations/0004_auto_20170105_1855.py	1;"	kind:file	line:1
+0004_auto_20170105_2023.py	order/migrations/0004_auto_20170105_2023.py	1;"	kind:file	line:1
+0004_merge_20170106_1428.py	users/migrations/0004_merge_20170106_1428.py	1;"	kind:file	line:1
+0004_merge_20170109_1005.py	users/migrations/0004_merge_20170109_1005.py	1;"	kind:file	line:1
+0005_auto_20170105_2308.py	order/migrations/0005_auto_20170105_2308.py	1;"	kind:file	line:1
+0005_auto_20170106_1001.py	goods/migrations/0005_auto_20170106_1001.py	1;"	kind:file	line:1
+0005_merge_20170106_1933.py	users/migrations/0005_merge_20170106_1933.py	1;"	kind:file	line:1
+0006_auto_20170105_2338.py	order/migrations/0006_auto_20170105_2338.py	1;"	kind:file	line:1
+0006_auto_20170106_1657.py	goods/migrations/0006_auto_20170106_1657.py	1;"	kind:file	line:1
+0006_merge_20170109_1237.py	users/migrations/0006_merge_20170109_1237.py	1;"	kind:file	line:1
+0006_merge_20170109_1240.py	users/migrations/0006_merge_20170109_1240.py	1;"	kind:file	line:1
+0007_auto_20170106_0057.py	order/migrations/0007_auto_20170106_0057.py	1;"	kind:file	line:1
+0007_auto_20170109_1251.py	goods/migrations/0007_auto_20170109_1251.py	1;"	kind:file	line:1
+0007_auto_20170109_1302.py	goods/migrations/0007_auto_20170109_1302.py	1;"	kind:file	line:1
+0007_merge_20170110_1722.py	users/migrations/0007_merge_20170110_1722.py	1;"	kind:file	line:1
+0008_auto_20170106_0205.py	order/migrations/0008_auto_20170106_0205.py	1;"	kind:file	line:1
+0008_auto_20170109_1707.py	goods/migrations/0008_auto_20170109_1707.py	1;"	kind:file	line:1
+0008_merge_20170109_1312.py	goods/migrations/0008_merge_20170109_1312.py	1;"	kind:file	line:1
+0008_userinfo_sendee.py	users/migrations/0008_userinfo_sendee.py	1;"	kind:file	line:1
+0009_merge_20170110_1723.py	goods/migrations/0009_merge_20170110_1723.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	tiantianshengxian/settings.py	/^ALLOWED_HOSTS = ['*',]$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	tiantianshengxian/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:104
+BASE_DIR	tiantianshengxian/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CACHES	tiantianshengxian/settings.py	/^CACHES = {$/;"	kind:variable	line:93
+CartConfig	cart/apps.py	/^class CartConfig(AppConfig):$/;"	kind:class	line:6
+CartInfo	cart/models.py	/^class CartInfo(models.Model):$/;"	kind:class	line:7
+DATABASES	tiantianshengxian/settings.py	/^DATABASES = {$/;"	kind:variable	line:81
+DEBUG	tiantianshengxian/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+GoodDetailInfo	cart/models.py	/^class GoodDetailInfo(models.Model):$/;"	kind:class	line:15
+GoodsConfig	goods/apps.py	/^class GoodsConfig(AppConfig):$/;"	kind:class	line:6
+GoodsInfo	goods/models.py	/^class GoodsInfo(models.Model):$/;"	kind:class	line:16
+INSTALLED_APPS	tiantianshengxian/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	tiantianshengxian/settings.py	/^LANGUAGE_CODE = 'zh-hans'$/;"	kind:variable	line:123
+MIDDLEWARE_CLASSES	tiantianshengxian/settings.py	/^MIDDLEWARE_CLASSES = [$/;"	kind:variable	line:46
+Meta	cart/models.py	/^    class Meta:$/;"	kind:class	line:10
+Meta	cart/models.py	/^    class Meta:$/;"	kind:class	line:20
+Meta	goods/models.py	/^	class Meta():$/;"	kind:class	line:10
+Meta	goods/models.py	/^	class Meta():$/;"	kind:class	line:28
+Meta	order/models.py	/^    class Meta:$/;"	kind:class	line:22
+Meta	order/models.py	/^    class Meta:$/;"	kind:class	line:50
+Migration	cart/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	cart/migrations/0002_auto_20170105_1011.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	goods/migrations/0002_goodsinfo_ginfo.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0003_goodsinfo_gclick.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0004_auto_20170105_1855.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0005_auto_20170106_1001.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0006_auto_20170106_1657.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0007_auto_20170109_1251.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0007_auto_20170109_1302.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0008_auto_20170109_1707.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0008_merge_20170109_1312.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	goods/migrations/0009_merge_20170110_1723.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	order/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	order/migrations/0002_auto_20170105_1011.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	order/migrations/0003_auto_20170105_1448.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	order/migrations/0004_auto_20170105_2023.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	order/migrations/0005_auto_20170105_2308.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	order/migrations/0006_auto_20170105_2338.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	order/migrations/0007_auto_20170106_0057.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	order/migrations/0008_auto_20170106_0205.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0002_auto_20170105_1446.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0002_auto_20170105_1620.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0002_auto_20170105_1855.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0002_auto_20170106_1455.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0003_merge_20170105_2306.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0004_merge_20170106_1428.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0004_merge_20170109_1005.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0005_merge_20170106_1933.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0006_merge_20170109_1237.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0006_merge_20170109_1240.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0007_merge_20170110_1722.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	users/migrations/0008_userinfo_sendee.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+ORDER_STATE	order/models.py	/^    ORDER_STATE = {'0': '待付款', '1': '已付款', '2': '已取消', '3': '已删除'}$/;"	kind:variable	line:34
+OrderConfig	order/apps.py	/^class OrderConfig(AppConfig):$/;"	kind:class	line:6
+OrderDetailInfo	order/models.py	/^class OrderDetailInfo(models.Model):$/;"	kind:class	line:42
+OrderDetailInfoAdmin	order/admin.py	/^class OrderDetailInfoAdmin(admin.ModelAdmin):$/;"	kind:class	line:9
+OrderInfo	order/models.py	/^class OrderInfo(models.Model):$/;"	kind:class	line:13
+OrderInfoAdmin	order/admin.py	/^class OrderInfoAdmin(admin.ModelAdmin):$/;"	kind:class	line:6
+ROOT_URLCONF	tiantianshengxian/settings.py	/^ROOT_URLCONF = 'tiantianshengxian.urls'$/;"	kind:variable	line:57
+RequestHandler	tiantianshengxian/requestHandler.py	/^class RequestHandler():$/;"	kind:class	line:6
+STATICFILES_DIRS	tiantianshengxian/settings.py	/^STATICFILES_DIRS = [$/;"	kind:variable	line:140
+STATIC_URL	tiantianshengxian/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:138
+TEMPLATES	tiantianshengxian/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:59
+TIME_ZONE	tiantianshengxian/settings.py	/^TIME_ZONE = 'Asia\/Shanghai'$/;"	kind:variable	line:125
+TypeInfo	goods/models.py	/^class TypeInfo(models.Model):$/;"	kind:class	line:6
+USE_I18N	tiantianshengxian/settings.py	/^USE_I18N = True$/;"	kind:variable	line:127
+USE_L10N	tiantianshengxian/settings.py	/^USE_L10N = True$/;"	kind:variable	line:129
+USE_TZ	tiantianshengxian/settings.py	/^USE_TZ = True$/;"	kind:variable	line:131
+UserInfo	users/models.py	/^class UserInfo(models.Model):$/;"	kind:class	line:7
+UsersConfig	users/apps.py	/^class UsersConfig(AppConfig):$/;"	kind:class	line:6
+WSGI_APPLICATION	tiantianshengxian/settings.py	/^WSGI_APPLICATION = 'tiantianshengxian.wsgi.application'$/;"	kind:variable	line:75
+WebsiteConfig	website/apps.py	/^class WebsiteConfig(AppConfig):$/;"	kind:class	line:6
+_TRANSIT	order/views.py	/^_TRANSIT = 12   # 邮费$/;"	kind:variable	line:18
+__init__.py	cart/__init__.py	1;"	kind:file	line:1
+__init__.py	cart/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	goods/__init__.py	1;"	kind:file	line:1
+__init__.py	goods/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	order/__init__.py	1;"	kind:file	line:1
+__init__.py	order/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	tiantianshengxian/__init__.py	1;"	kind:file	line:1
+__init__.py	users/__init__.py	1;"	kind:file	line:1
+__init__.py	users/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	website/__init__.py	1;"	kind:file	line:1
+__init__.py	website/migrations/__init__.py	1;"	kind:file	line:1
+__str__	cart/models.py	/^    def __str__(self):$/;"	kind:member	line:12
+__str__	cart/models.py	/^    def __str__(self):$/;"	kind:member	line:22
+__str__	goods/models.py	/^	def __str__(self):$/;"	kind:member	line:12
+__str__	goods/models.py	/^	def __str__(self):$/;"	kind:member	line:30
+__str__	order/models.py	/^    def __str__(self):$/;"	kind:member	line:38
+__str__	order/models.py	/^    def __str__(self):$/;"	kind:member	line:53
+__unicode__	users/models.py	/^    def __unicode__(self):$/;"	kind:member	line:20
+addCart	cart/views.py	/^def addCart(request):   #添加到购物车$/;"	kind:function	line:16
+address	users/models.py	/^    address = models.CharField('地址',max_length=100)$/;"	kind:variable	line:12
+addressHandle	users/views.py	/^def addressHandle(request):$/;"	kind:function	line:118
+admin.py	cart/admin.py	1;"	kind:file	line:1
+admin.py	goods/admin.py	1;"	kind:file	line:1
+admin.py	order/admin.py	1;"	kind:file	line:1
+admin.py	users/admin.py	1;"	kind:file	line:1
+admin.py	website/admin.py	1;"	kind:file	line:1
+application	tiantianshengxian/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	cart/apps.py	1;"	kind:file	line:1
+apps.py	goods/apps.py	1;"	kind:file	line:1
+apps.py	order/apps.py	1;"	kind:file	line:1
+apps.py	users/apps.py	1;"	kind:file	line:1
+apps.py	website/apps.py	1;"	kind:file	line:1
+augmentGoodCount	cart/models.py	/^    def augmentGoodCount(self):$/;"	kind:member	line:36
+base	users/views.py	/^def base(request):$/;"	kind:function	line:56
+cancel_order	order/views.py	/^def cancel_order(request, oid):$/;"	kind:function	line:104
+cart	cart/views.py	/^def cart(request):$/;"	kind:function	line:10
+cartCookie	cart/views.py	/^        def cartCookie(request):$/;"	kind:function	line:103
+cart_good	cart/models.py	/^    cart_good = models.ForeignKey('CartInfo')   #购物车商品$/;"	kind:variable	line:17
+changeCount	cart/views.py	/^def changeCount(request):    #‘+’键（添加商品数量）$/;"	kind:function	line:67
+checkname	users/views.py	/^def checkname(request,name):$/;"	kind:function	line:20
+code	users/models.py	/^    code =models.CharField('邮编',max_length=6)$/;"	kind:variable	line:15
+confirm_order	order/views.py	/^def confirm_order(request):$/;"	kind:function	line:42
+count	cart/models.py	/^    count = models.IntegerField('数量', default=0)  #总商品件数$/;"	kind:variable	line:9
+count	order/models.py	/^    count = models.IntegerField('数量')    # 订单商品数量$/;"	kind:variable	line:46
+createdTime	order/models.py	/^    createdTime = models.DateTimeField('创建时间',auto_now_add=True)    # 订单生成时间$/;"	kind:variable	line:19
+cssClass	goods/models.py	/^	cssClass = models.CharField('商品名称', max_length=20)  #商品名称	$/;"	kind:variable	line:9
+db_table	cart/models.py	/^        db_table = 'cartinfo'$/;"	kind:variable	line:11
+db_table	cart/models.py	/^        db_table = 'gooddetailinfo'$/;"	kind:variable	line:21
+db_table	goods/models.py	/^		db_table='goodsinfo'$/;"	kind:variable	line:29
+db_table	goods/models.py	/^		db_table='typeinfo'$/;"	kind:variable	line:11
+db_table	order/models.py	/^        db_table = 'orderDetailInfo'$/;"	kind:variable	line:51
+db_table	order/models.py	/^        db_table = 'orderInfo'$/;"	kind:variable	line:23
+delGood	cart/views.py	/^def delGood(request):   #删除购物车的商品$/;"	kind:function	line:55
+delsession	users/views.py	/^def delsession(request):$/;"	kind:function	line:95
+dependencies	cart/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	cart/migrations/0002_auto_20170105_1011.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	goods/migrations/0002_goodsinfo_ginfo.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0003_goodsinfo_gclick.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0004_auto_20170105_1855.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0005_auto_20170106_1001.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0006_auto_20170106_1657.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0007_auto_20170109_1251.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0007_auto_20170109_1302.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0008_auto_20170109_1707.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0008_merge_20170109_1312.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	goods/migrations/0009_merge_20170110_1723.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	order/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	order/migrations/0002_auto_20170105_1011.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	order/migrations/0003_auto_20170105_1448.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	order/migrations/0004_auto_20170105_2023.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	order/migrations/0005_auto_20170105_2308.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	order/migrations/0006_auto_20170105_2338.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	order/migrations/0007_auto_20170106_0057.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	order/migrations/0008_auto_20170106_0205.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	users/migrations/0002_auto_20170105_1446.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0002_auto_20170105_1620.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0002_auto_20170105_1855.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0002_auto_20170106_1455.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0003_merge_20170105_2306.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0004_merge_20170106_1428.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0004_merge_20170109_1005.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0005_merge_20170106_1933.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0006_merge_20170109_1237.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0006_merge_20170109_1240.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0007_merge_20170110_1722.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	users/migrations/0008_userinfo_sendee.py	/^    dependencies = [$/;"	kind:variable	line:10
+derector.py	tiantianshengxian/derector.py	1;"	kind:file	line:1
+email	users/models.py	/^    email = models.CharField('邮箱',max_length=30)$/;"	kind:variable	line:17
+field	cart/migrations/0002_auto_20170105_1011.py	/^            field=models.IntegerField(default=0, verbose_name='\\u6570\\u91cf'),$/;"	kind:variable	line:18
+field	cart/migrations/0002_auto_20170105_1011.py	/^            field=models.IntegerField(default=0, verbose_name='\\u6570\\u91cf'),$/;"	kind:variable	line:23
+field	goods/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='goods.TypeInfo'),$/;"	kind:variable	line:45
+field	goods/migrations/0002_goodsinfo_ginfo.py	/^            field=models.CharField(default=' ', max_length=100),$/;"	kind:variable	line:18
+field	goods/migrations/0003_goodsinfo_gclick.py	/^            field=models.IntegerField(default=0),$/;"	kind:variable	line:18
+field	goods/migrations/0004_auto_20170105_1855.py	/^            field=models.CharField(default=' ', max_length=100, verbose_name='\\u5546\\u54c1\\u7b80\\u4ecb'),$/;"	kind:variable	line:33
+field	goods/migrations/0004_auto_20170105_1855.py	/^            field=models.CharField(default=' ', max_length=1000, verbose_name='detail\\u8def\\u5f84'),$/;"	kind:variable	line:18
+field	goods/migrations/0004_auto_20170105_1855.py	/^            field=models.CharField(max_length=1000, verbose_name='list\\u8def\\u5f84'),$/;"	kind:variable	line:38
+field	goods/migrations/0004_auto_20170105_1855.py	/^            field=models.CharField(max_length=20, verbose_name='\\u5546\\u54c1\\u5206\\u7c7b'),$/;"	kind:variable	line:53
+field	goods/migrations/0004_auto_20170105_1855.py	/^            field=models.CharField(max_length=20, verbose_name='\\u5546\\u54c1\\u540d\\u79f0'),$/;"	kind:variable	line:48
+field	goods/migrations/0004_auto_20170105_1855.py	/^            field=models.DecimalField(decimal_places=2, max_digits=7, verbose_name='\\u5546\\u54c1\\u4ef7\\u683c'),$/;"	kind:variable	line:43
+field	goods/migrations/0004_auto_20170105_1855.py	/^            field=models.IntegerField(default=0, verbose_name='\\u5546\\u54c1\\u70b9\\u51fb\\u91cf'),$/;"	kind:variable	line:23
+field	goods/migrations/0004_auto_20170105_1855.py	/^            field=models.TextField(verbose_name='\\u5546\\u54c1\\u63cf\\u8ff0'),$/;"	kind:variable	line:28
+field	goods/migrations/0005_auto_20170106_1001.py	/^            field=models.IntegerField(default=1, verbose_name='\\u5546\\u54c1\\u5355\\u4f4d'),$/;"	kind:variable	line:23
+field	goods/migrations/0005_auto_20170106_1001.py	/^            field=models.IntegerField(default=1000, verbose_name='\\u5546\\u54c1\\u5e93\\u5b58'),$/;"	kind:variable	line:18
+field	goods/migrations/0007_auto_20170109_1251.py	/^            field=models.CharField(max_length=100, verbose_name='\\u5546\\u54c1\\u5355\\u4f4d'),$/;"	kind:variable	line:18
+field	goods/migrations/0007_auto_20170109_1302.py	/^            field=models.CharField(max_length=100, verbose_name='\\u5546\\u54c1\\u5355\\u4f4d'),$/;"	kind:variable	line:18
+field	goods/migrations/0008_auto_20170109_1707.py	/^            field=models.CharField(default='fru', max_length=20, verbose_name='\\u5546\\u54c1\\u540d\\u79f0'),$/;"	kind:variable	line:23
+field	order/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='order.OrderInfo'),$/;"	kind:variable	line:48
+field	order/migrations/0002_auto_20170105_1011.py	/^            field=models.DateTimeField(auto_now_add=True, default=django.utils.timezone.now),$/;"	kind:variable	line:19
+field	order/migrations/0002_auto_20170105_1011.py	/^            field=models.DateTimeField(default='2017-1-5'),$/;"	kind:variable	line:25
+field	order/migrations/0003_auto_20170105_1448.py	/^            field=models.DateTimeField(),$/;"	kind:variable	line:18
+field	order/migrations/0004_auto_20170105_2023.py	/^            field=models.DateTimeField(null=True),$/;"	kind:variable	line:23
+field	order/migrations/0004_auto_20170105_2023.py	/^            field=models.DecimalField(decimal_places=2, default=0, max_digits=7, verbose_name='\\u603b\\u4ef7'),$/;"	kind:variable	line:18
+field	order/migrations/0005_auto_20170105_2308.py	/^            field=models.DateTimeField(default=None),$/;"	kind:variable	line:18
+field	order/migrations/0006_auto_20170105_2338.py	/^            field=models.DateTimeField(default=None, null=True),$/;"	kind:variable	line:18
+field	order/migrations/0007_auto_20170106_0057.py	/^            field=models.CharField(default='\\u5f85\\u4ed8\\u6b3e', max_length=10, verbose_name='\\u8ba2\\u5355\\u72b6\\u6001'),$/;"	kind:variable	line:28
+field	order/migrations/0007_auto_20170106_0057.py	/^            field=models.DateTimeField(auto_now_add=True, verbose_name='\\u521b\\u5efa\\u65f6\\u95f4'),$/;"	kind:variable	line:18
+field	order/migrations/0007_auto_20170106_0057.py	/^            field=models.DateTimeField(default=None, null=True, verbose_name='\\u652f\\u4ed8\\u65f6\\u95f4'),$/;"	kind:variable	line:23
+field	order/migrations/0008_auto_20170106_0205.py	/^            field=models.CharField(default='1', max_length=1, verbose_name='\\u8ba2\\u5355\\u72b6\\u6001'),$/;"	kind:variable	line:23
+field	order/migrations/0008_auto_20170106_0205.py	/^            field=models.CharField(max_length=31, primary_key=True, serialize=False, verbose_name='\\u8ba2\\u5355\\u7f16\\u53f7'),$/;"	kind:variable	line:18
+field	users/migrations/0002_auto_20170105_1446.py	/^            field=models.BooleanField(default=False, verbose_name='\\u662f\\u5426\\u5220\\u9664'),$/;"	kind:variable	line:33
+field	users/migrations/0002_auto_20170105_1446.py	/^            field=models.CharField(max_length=100, verbose_name='\\u5730\\u5740'),$/;"	kind:variable	line:18
+field	users/migrations/0002_auto_20170105_1446.py	/^            field=models.CharField(max_length=11, verbose_name='\\u8054\\u7cfb\\u65b9\\u5f0f'),$/;"	kind:variable	line:43
+field	users/migrations/0002_auto_20170105_1446.py	/^            field=models.CharField(max_length=20, verbose_name='\\u7528\\u6237\\u540d'),$/;"	kind:variable	line:38
+field	users/migrations/0002_auto_20170105_1446.py	/^            field=models.CharField(max_length=30, verbose_name='\\u90ae\\u7bb1'),$/;"	kind:variable	line:28
+field	users/migrations/0002_auto_20170105_1446.py	/^            field=models.CharField(max_length=40, verbose_name='\\u5bc6\\u7801'),$/;"	kind:variable	line:48
+field	users/migrations/0002_auto_20170105_1446.py	/^            field=models.CharField(max_length=6, verbose_name='\\u90ae\\u7f16'),$/;"	kind:variable	line:23
+field	users/migrations/0002_auto_20170105_1620.py	/^            field=models.BooleanField(default=False, verbose_name='\\u662f\\u5426\\u5220\\u9664'),$/;"	kind:variable	line:33
+field	users/migrations/0002_auto_20170105_1620.py	/^            field=models.CharField(max_length=100, verbose_name='\\u5730\\u5740'),$/;"	kind:variable	line:18
+field	users/migrations/0002_auto_20170105_1620.py	/^            field=models.CharField(max_length=11, verbose_name='\\u8054\\u7cfb\\u65b9\\u5f0f'),$/;"	kind:variable	line:43
+field	users/migrations/0002_auto_20170105_1620.py	/^            field=models.CharField(max_length=20, verbose_name='\\u7528\\u6237\\u540d'),$/;"	kind:variable	line:38
+field	users/migrations/0002_auto_20170105_1620.py	/^            field=models.CharField(max_length=30, verbose_name='\\u90ae\\u7bb1'),$/;"	kind:variable	line:28
+field	users/migrations/0002_auto_20170105_1620.py	/^            field=models.CharField(max_length=40, verbose_name='\\u5bc6\\u7801'),$/;"	kind:variable	line:48
+field	users/migrations/0002_auto_20170105_1620.py	/^            field=models.CharField(max_length=6, verbose_name='\\u90ae\\u7f16'),$/;"	kind:variable	line:23
+field	users/migrations/0002_auto_20170105_1855.py	/^            field=models.BooleanField(default=False, verbose_name='\\u662f\\u5426\\u5220\\u9664'),$/;"	kind:variable	line:33
+field	users/migrations/0002_auto_20170105_1855.py	/^            field=models.CharField(max_length=100, verbose_name='\\u5730\\u5740'),$/;"	kind:variable	line:18
+field	users/migrations/0002_auto_20170105_1855.py	/^            field=models.CharField(max_length=11, verbose_name='\\u8054\\u7cfb\\u65b9\\u5f0f'),$/;"	kind:variable	line:43
+field	users/migrations/0002_auto_20170105_1855.py	/^            field=models.CharField(max_length=20, verbose_name='\\u7528\\u6237\\u540d'),$/;"	kind:variable	line:38
+field	users/migrations/0002_auto_20170105_1855.py	/^            field=models.CharField(max_length=30, verbose_name='\\u90ae\\u7bb1'),$/;"	kind:variable	line:28
+field	users/migrations/0002_auto_20170105_1855.py	/^            field=models.CharField(max_length=40, verbose_name='\\u5bc6\\u7801'),$/;"	kind:variable	line:48
+field	users/migrations/0002_auto_20170105_1855.py	/^            field=models.CharField(max_length=6, verbose_name='\\u90ae\\u7f16'),$/;"	kind:variable	line:23
+field	users/migrations/0002_auto_20170106_1455.py	/^            field=models.BooleanField(default=False, verbose_name='\\u662f\\u5426\\u5220\\u9664'),$/;"	kind:variable	line:33
+field	users/migrations/0002_auto_20170106_1455.py	/^            field=models.CharField(max_length=100, verbose_name='\\u5730\\u5740'),$/;"	kind:variable	line:18
+field	users/migrations/0002_auto_20170106_1455.py	/^            field=models.CharField(max_length=11, verbose_name='\\u8054\\u7cfb\\u65b9\\u5f0f'),$/;"	kind:variable	line:43
+field	users/migrations/0002_auto_20170106_1455.py	/^            field=models.CharField(max_length=20, verbose_name='\\u7528\\u6237\\u540d'),$/;"	kind:variable	line:38
+field	users/migrations/0002_auto_20170106_1455.py	/^            field=models.CharField(max_length=30, verbose_name='\\u90ae\\u7bb1'),$/;"	kind:variable	line:28
+field	users/migrations/0002_auto_20170106_1455.py	/^            field=models.CharField(max_length=40, verbose_name='\\u5bc6\\u7801'),$/;"	kind:variable	line:48
+field	users/migrations/0002_auto_20170106_1455.py	/^            field=models.CharField(max_length=6, verbose_name='\\u90ae\\u7f16'),$/;"	kind:variable	line:23
+field	users/migrations/0008_userinfo_sendee.py	/^            field=models.CharField(default='qwe', max_length=20, verbose_name='\\u6536\\u4ef6\\u4eba'),$/;"	kind:variable	line:18
+fields	cart/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+fields	cart/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:32
+fields	goods/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	goods/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:33
+fields	order/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+fields	order/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:34
+fields	users/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+gclick	goods/models.py	/^	gclick = models.IntegerField('商品点击量',default=0)   #点击量$/;"	kind:variable	line:25
+gcount	goods/models.py	/^	gcount = models.IntegerField('商品库存',default=1000)  #商品库存$/;"	kind:variable	line:24
+gdesc	goods/models.py	/^	gdesc = models.TextField('商品描述')  #商品描述$/;"	kind:variable	line:19
+gdetail	goods/models.py	/^	gdetail = models.CharField('detail路径',max_length=1000,default=' ')  #detail图片路径$/;"	kind:variable	line:22
+get_goods	goods/views.py	/^def get_goods(request):$/;"	kind:function	line:38
+get_order	order/views.py	/^def get_order(request):$/;"	kind:function	line:139
+get_order_detail	order/views.py	/^def get_order_detail(request, oid):$/;"	kind:function	line:151
+ginfo	goods/models.py	/^	ginfo = models.CharField('商品简介',max_length=100, default=' ')  #商品简介$/;"	kind:variable	line:20
+goodCount	cart/models.py	/^    goodCount = models.IntegerField('数量', default=0)  #单件商品数量$/;"	kind:variable	line:18
+goods	cart/models.py	/^    goods = models.ForeignKey(GoodsInfo)  #用户页商品详情$/;"	kind:variable	line:16
+goods	order/models.py	/^    goods = models.ForeignKey(GoodsInfo)    # 订单商品列表$/;"	kind:variable	line:45
+goodsInfo	goods/views.py	/^def goodsInfo(request,css,name):$/;"	kind:function	line:9
+goodsList	goods/views.py	/^def goodsList(request,css):$/;"	kind:function	line:20
+gpath	goods/models.py	/^	gpath = models.CharField('list路径',max_length=1000)  #商品图片路径$/;"	kind:variable	line:21
+gprice	goods/models.py	/^	gprice = models.DecimalField('商品价格',max_digits=7,decimal_places=2)  #商品价格$/;"	kind:variable	line:18
+gtitle	goods/models.py	/^	gtitle = models.CharField('商品名称',max_length=20)   #商品名称$/;"	kind:variable	line:17
+gtype	goods/models.py	/^	gtype = models.ForeignKey('TypeInfo')   #外键$/;"	kind:variable	line:26
+gunit	goods/models.py	/^	gunit = models.CharField('商品单位',max_length=100)   #商品单位$/;"	kind:variable	line:23
+id	order/models.py	/^    id = models.CharField('订单编号', max_length=31, primary_key=True, null=False)    #订单编号$/;"	kind:variable	line:15
+index	website/views.py	/^def index(request):$/;"	kind:function	line:5
+initial	cart/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+initial	goods/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+initial	order/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+initial	users/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+isDelete	goods/models.py	/^	isDelete = models.BooleanField(default=False)   #是否有此类$/;"	kind:variable	line:8
+isDelete	goods/models.py	/^	isDelete = models.BooleanField(default=False)$/;"	kind:variable	line:27
+isDelete	order/models.py	/^    isDelete = models.BooleanField(default=False)$/;"	kind:variable	line:21
+isDelete	order/models.py	/^    isDelete = models.BooleanField(default=False)$/;"	kind:variable	line:48
+isdelete	users/models.py	/^    isdelete = models.BooleanField('是否删除',default=False)$/;"	kind:variable	line:11
+list_display	order/admin.py	/^    list_display = ['order', 'goods', 'count', 'price']$/;"	kind:variable	line:10
+list_display	order/admin.py	/^    list_display = ['user', 'id', 'ototal', 'orderState', 'createdTime', 'payTime', 'isDelete']$/;"	kind:variable	line:7
+login_required	tiantianshengxian/derector.py	/^def login_required(func):$/;"	kind:function	line:6
+logn	users/views.py	/^def logn(request):$/;"	kind:function	line:59
+lognHandle	users/views.py	/^def lognHandle(request):$/;"	kind:function	line:66
+manage.py	manage.py	1;"	kind:file	line:1
+minusKey	cart/views.py	/^def minusKey(request):  #‘-’键（减少商品数量)$/;"	kind:function	line:86
+model_name	cart/migrations/0002_auto_20170105_1011.py	/^            model_name='cartinfo',$/;"	kind:variable	line:16
+model_name	cart/migrations/0002_auto_20170105_1011.py	/^            model_name='gooddetailinfo',$/;"	kind:variable	line:21
+model_name	goods/migrations/0001_initial.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:43
+model_name	goods/migrations/0002_goodsinfo_ginfo.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:16
+model_name	goods/migrations/0003_goodsinfo_gclick.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:16
+model_name	goods/migrations/0004_auto_20170105_1855.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:16
+model_name	goods/migrations/0004_auto_20170105_1855.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:21
+model_name	goods/migrations/0004_auto_20170105_1855.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:26
+model_name	goods/migrations/0004_auto_20170105_1855.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:31
+model_name	goods/migrations/0004_auto_20170105_1855.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:36
+model_name	goods/migrations/0004_auto_20170105_1855.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:41
+model_name	goods/migrations/0004_auto_20170105_1855.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:46
+model_name	goods/migrations/0004_auto_20170105_1855.py	/^            model_name='typeinfo',$/;"	kind:variable	line:51
+model_name	goods/migrations/0005_auto_20170106_1001.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:16
+model_name	goods/migrations/0005_auto_20170106_1001.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:21
+model_name	goods/migrations/0006_auto_20170106_1657.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:16
+model_name	goods/migrations/0007_auto_20170109_1251.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:16
+model_name	goods/migrations/0007_auto_20170109_1302.py	/^            model_name='goodsinfo',$/;"	kind:variable	line:16
+model_name	goods/migrations/0008_auto_20170109_1707.py	/^            model_name='typeinfo',$/;"	kind:variable	line:16
+model_name	goods/migrations/0008_auto_20170109_1707.py	/^            model_name='typeinfo',$/;"	kind:variable	line:21
+model_name	order/migrations/0001_initial.py	/^            model_name='orderdetailinfo',$/;"	kind:variable	line:46
+model_name	order/migrations/0002_auto_20170105_1011.py	/^            model_name='orderinfo',$/;"	kind:variable	line:17
+model_name	order/migrations/0002_auto_20170105_1011.py	/^            model_name='orderinfo',$/;"	kind:variable	line:23
+model_name	order/migrations/0003_auto_20170105_1448.py	/^            model_name='orderinfo',$/;"	kind:variable	line:16
+model_name	order/migrations/0004_auto_20170105_2023.py	/^            model_name='orderinfo',$/;"	kind:variable	line:16
+model_name	order/migrations/0004_auto_20170105_2023.py	/^            model_name='orderinfo',$/;"	kind:variable	line:21
+model_name	order/migrations/0005_auto_20170105_2308.py	/^            model_name='orderinfo',$/;"	kind:variable	line:16
+model_name	order/migrations/0006_auto_20170105_2338.py	/^            model_name='orderinfo',$/;"	kind:variable	line:16
+model_name	order/migrations/0007_auto_20170106_0057.py	/^            model_name='orderinfo',$/;"	kind:variable	line:16
+model_name	order/migrations/0007_auto_20170106_0057.py	/^            model_name='orderinfo',$/;"	kind:variable	line:21
+model_name	order/migrations/0007_auto_20170106_0057.py	/^            model_name='orderinfo',$/;"	kind:variable	line:26
+model_name	order/migrations/0008_auto_20170106_0205.py	/^            model_name='orderinfo',$/;"	kind:variable	line:16
+model_name	order/migrations/0008_auto_20170106_0205.py	/^            model_name='orderinfo',$/;"	kind:variable	line:21
+model_name	users/migrations/0002_auto_20170105_1446.py	/^            model_name='userinfo',$/;"	kind:variable	line:16
+model_name	users/migrations/0002_auto_20170105_1446.py	/^            model_name='userinfo',$/;"	kind:variable	line:21
+model_name	users/migrations/0002_auto_20170105_1446.py	/^            model_name='userinfo',$/;"	kind:variable	line:26
+model_name	users/migrations/0002_auto_20170105_1446.py	/^            model_name='userinfo',$/;"	kind:variable	line:31
+model_name	users/migrations/0002_auto_20170105_1446.py	/^            model_name='userinfo',$/;"	kind:variable	line:36
+model_name	users/migrations/0002_auto_20170105_1446.py	/^            model_name='userinfo',$/;"	kind:variable	line:41
+model_name	users/migrations/0002_auto_20170105_1446.py	/^            model_name='userinfo',$/;"	kind:variable	line:46
+model_name	users/migrations/0002_auto_20170105_1620.py	/^            model_name='userinfo',$/;"	kind:variable	line:16
+model_name	users/migrations/0002_auto_20170105_1620.py	/^            model_name='userinfo',$/;"	kind:variable	line:21
+model_name	users/migrations/0002_auto_20170105_1620.py	/^            model_name='userinfo',$/;"	kind:variable	line:26
+model_name	users/migrations/0002_auto_20170105_1620.py	/^            model_name='userinfo',$/;"	kind:variable	line:31
+model_name	users/migrations/0002_auto_20170105_1620.py	/^            model_name='userinfo',$/;"	kind:variable	line:36
+model_name	users/migrations/0002_auto_20170105_1620.py	/^            model_name='userinfo',$/;"	kind:variable	line:41
+model_name	users/migrations/0002_auto_20170105_1620.py	/^            model_name='userinfo',$/;"	kind:variable	line:46
+model_name	users/migrations/0002_auto_20170105_1855.py	/^            model_name='userinfo',$/;"	kind:variable	line:16
+model_name	users/migrations/0002_auto_20170105_1855.py	/^            model_name='userinfo',$/;"	kind:variable	line:21
+model_name	users/migrations/0002_auto_20170105_1855.py	/^            model_name='userinfo',$/;"	kind:variable	line:26
+model_name	users/migrations/0002_auto_20170105_1855.py	/^            model_name='userinfo',$/;"	kind:variable	line:31
+model_name	users/migrations/0002_auto_20170105_1855.py	/^            model_name='userinfo',$/;"	kind:variable	line:36
+model_name	users/migrations/0002_auto_20170105_1855.py	/^            model_name='userinfo',$/;"	kind:variable	line:41
+model_name	users/migrations/0002_auto_20170105_1855.py	/^            model_name='userinfo',$/;"	kind:variable	line:46
+model_name	users/migrations/0002_auto_20170106_1455.py	/^            model_name='userinfo',$/;"	kind:variable	line:16
+model_name	users/migrations/0002_auto_20170106_1455.py	/^            model_name='userinfo',$/;"	kind:variable	line:21
+model_name	users/migrations/0002_auto_20170106_1455.py	/^            model_name='userinfo',$/;"	kind:variable	line:26
+model_name	users/migrations/0002_auto_20170106_1455.py	/^            model_name='userinfo',$/;"	kind:variable	line:31
+model_name	users/migrations/0002_auto_20170106_1455.py	/^            model_name='userinfo',$/;"	kind:variable	line:36
+model_name	users/migrations/0002_auto_20170106_1455.py	/^            model_name='userinfo',$/;"	kind:variable	line:41
+model_name	users/migrations/0002_auto_20170106_1455.py	/^            model_name='userinfo',$/;"	kind:variable	line:46
+model_name	users/migrations/0008_userinfo_sendee.py	/^            model_name='userinfo',$/;"	kind:variable	line:16
+models.py	cart/models.py	1;"	kind:file	line:1
+models.py	goods/models.py	1;"	kind:file	line:1
+models.py	order/models.py	1;"	kind:file	line:1
+models.py	users/models.py	1;"	kind:file	line:1
+models.py	website/models.py	1;"	kind:file	line:1
+name	cart/apps.py	/^    name = 'cart'$/;"	kind:variable	line:7
+name	cart/migrations/0001_initial.py	/^            name='CartInfo',$/;"	kind:variable	line:20
+name	cart/migrations/0001_initial.py	/^            name='GoodDetailInfo',$/;"	kind:variable	line:31
+name	cart/migrations/0002_auto_20170105_1011.py	/^            name='count',$/;"	kind:variable	line:17
+name	cart/migrations/0002_auto_20170105_1011.py	/^            name='goodCount',$/;"	kind:variable	line:22
+name	cart/models.py	/^    def name(self):$/;"	kind:member	line:30
+name	goods/apps.py	/^    name = 'goods'$/;"	kind:variable	line:7
+name	goods/migrations/0001_initial.py	/^            name='GoodsInfo',$/;"	kind:variable	line:18
+name	goods/migrations/0001_initial.py	/^            name='TypeInfo',$/;"	kind:variable	line:32
+name	goods/migrations/0001_initial.py	/^            name='gtype',$/;"	kind:variable	line:44
+name	goods/migrations/0002_goodsinfo_ginfo.py	/^            name='ginfo',$/;"	kind:variable	line:17
+name	goods/migrations/0003_goodsinfo_gclick.py	/^            name='gclick',$/;"	kind:variable	line:17
+name	goods/migrations/0004_auto_20170105_1855.py	/^            name='gclick',$/;"	kind:variable	line:22
+name	goods/migrations/0004_auto_20170105_1855.py	/^            name='gdesc',$/;"	kind:variable	line:27
+name	goods/migrations/0004_auto_20170105_1855.py	/^            name='gdetail',$/;"	kind:variable	line:17
+name	goods/migrations/0004_auto_20170105_1855.py	/^            name='ginfo',$/;"	kind:variable	line:32
+name	goods/migrations/0004_auto_20170105_1855.py	/^            name='gpath',$/;"	kind:variable	line:37
+name	goods/migrations/0004_auto_20170105_1855.py	/^            name='gprice',$/;"	kind:variable	line:42
+name	goods/migrations/0004_auto_20170105_1855.py	/^            name='gtitle',$/;"	kind:variable	line:47
+name	goods/migrations/0004_auto_20170105_1855.py	/^            name='ttitle',$/;"	kind:variable	line:52
+name	goods/migrations/0005_auto_20170106_1001.py	/^            name='gcount',$/;"	kind:variable	line:17
+name	goods/migrations/0005_auto_20170106_1001.py	/^            name='gpcs',$/;"	kind:variable	line:22
+name	goods/migrations/0007_auto_20170109_1251.py	/^            name='gunit',$/;"	kind:variable	line:17
+name	goods/migrations/0007_auto_20170109_1302.py	/^            name='gunit',$/;"	kind:variable	line:17
+name	goods/migrations/0008_auto_20170109_1707.py	/^            name='cssClass',$/;"	kind:variable	line:22
+name	order/apps.py	/^    name = 'order'$/;"	kind:variable	line:7
+name	order/migrations/0001_initial.py	/^            name='OrderDetailInfo',$/;"	kind:variable	line:20
+name	order/migrations/0001_initial.py	/^            name='OrderInfo',$/;"	kind:variable	line:33
+name	order/migrations/0001_initial.py	/^            name='order',$/;"	kind:variable	line:47
+name	order/migrations/0002_auto_20170105_1011.py	/^            name='createdTime',$/;"	kind:variable	line:18
+name	order/migrations/0002_auto_20170105_1011.py	/^            name='payTime',$/;"	kind:variable	line:24
+name	order/migrations/0003_auto_20170105_1448.py	/^            name='payTime',$/;"	kind:variable	line:17
+name	order/migrations/0004_auto_20170105_2023.py	/^            name='ototal',$/;"	kind:variable	line:17
+name	order/migrations/0004_auto_20170105_2023.py	/^            name='payTime',$/;"	kind:variable	line:22
+name	order/migrations/0005_auto_20170105_2308.py	/^            name='payTime',$/;"	kind:variable	line:17
+name	order/migrations/0006_auto_20170105_2338.py	/^            name='payTime',$/;"	kind:variable	line:17
+name	order/migrations/0007_auto_20170106_0057.py	/^            name='createdTime',$/;"	kind:variable	line:17
+name	order/migrations/0007_auto_20170106_0057.py	/^            name='payTime',$/;"	kind:variable	line:22
+name	order/migrations/0007_auto_20170106_0057.py	/^            name='state',$/;"	kind:variable	line:27
+name	order/migrations/0008_auto_20170106_0205.py	/^            name='id',$/;"	kind:variable	line:17
+name	order/migrations/0008_auto_20170106_0205.py	/^            name='state',$/;"	kind:variable	line:22
+name	users/apps.py	/^    name = 'users'$/;"	kind:variable	line:7
+name	users/migrations/0001_initial.py	/^            name='UserInfo',$/;"	kind:variable	line:17
+name	users/migrations/0002_auto_20170105_1446.py	/^            name='address',$/;"	kind:variable	line:17
+name	users/migrations/0002_auto_20170105_1446.py	/^            name='code',$/;"	kind:variable	line:22
+name	users/migrations/0002_auto_20170105_1446.py	/^            name='email',$/;"	kind:variable	line:27
+name	users/migrations/0002_auto_20170105_1446.py	/^            name='isdelete',$/;"	kind:variable	line:32
+name	users/migrations/0002_auto_20170105_1446.py	/^            name='name',$/;"	kind:variable	line:37
+name	users/migrations/0002_auto_20170105_1446.py	/^            name='phoneNumber',$/;"	kind:variable	line:42
+name	users/migrations/0002_auto_20170105_1446.py	/^            name='pwd',$/;"	kind:variable	line:47
+name	users/migrations/0002_auto_20170105_1620.py	/^            name='address',$/;"	kind:variable	line:17
+name	users/migrations/0002_auto_20170105_1620.py	/^            name='code',$/;"	kind:variable	line:22
+name	users/migrations/0002_auto_20170105_1620.py	/^            name='email',$/;"	kind:variable	line:27
+name	users/migrations/0002_auto_20170105_1620.py	/^            name='isdelete',$/;"	kind:variable	line:32
+name	users/migrations/0002_auto_20170105_1620.py	/^            name='name',$/;"	kind:variable	line:37
+name	users/migrations/0002_auto_20170105_1620.py	/^            name='phoneNumber',$/;"	kind:variable	line:42
+name	users/migrations/0002_auto_20170105_1620.py	/^            name='pwd',$/;"	kind:variable	line:47
+name	users/migrations/0002_auto_20170105_1855.py	/^            name='address',$/;"	kind:variable	line:17
+name	users/migrations/0002_auto_20170105_1855.py	/^            name='code',$/;"	kind:variable	line:22
+name	users/migrations/0002_auto_20170105_1855.py	/^            name='email',$/;"	kind:variable	line:27
+name	users/migrations/0002_auto_20170105_1855.py	/^            name='isdelete',$/;"	kind:variable	line:32
+name	users/migrations/0002_auto_20170105_1855.py	/^            name='name',$/;"	kind:variable	line:37
+name	users/migrations/0002_auto_20170105_1855.py	/^            name='phoneNumber',$/;"	kind:variable	line:42
+name	users/migrations/0002_auto_20170105_1855.py	/^            name='pwd',$/;"	kind:variable	line:47
+name	users/migrations/0002_auto_20170106_1455.py	/^            name='address',$/;"	kind:variable	line:17
+name	users/migrations/0002_auto_20170106_1455.py	/^            name='code',$/;"	kind:variable	line:22
+name	users/migrations/0002_auto_20170106_1455.py	/^            name='email',$/;"	kind:variable	line:27
+name	users/migrations/0002_auto_20170106_1455.py	/^            name='isdelete',$/;"	kind:variable	line:32
+name	users/migrations/0002_auto_20170106_1455.py	/^            name='name',$/;"	kind:variable	line:37
+name	users/migrations/0002_auto_20170106_1455.py	/^            name='phoneNumber',$/;"	kind:variable	line:42
+name	users/migrations/0002_auto_20170106_1455.py	/^            name='pwd',$/;"	kind:variable	line:47
+name	users/migrations/0008_userinfo_sendee.py	/^            name='sendee',$/;"	kind:variable	line:17
+name	users/models.py	/^    name = models.CharField('用户名',max_length=20)$/;"	kind:variable	line:9
+name	website/apps.py	/^    name = 'website'$/;"	kind:variable	line:7
+new_name	goods/migrations/0006_auto_20170106_1657.py	/^            new_name='gunit',$/;"	kind:variable	line:18
+new_name	goods/migrations/0008_auto_20170109_1707.py	/^            new_name='title',$/;"	kind:variable	line:18
+old_name	goods/migrations/0006_auto_20170106_1657.py	/^            old_name='gpcs',$/;"	kind:variable	line:17
+old_name	goods/migrations/0008_auto_20170109_1707.py	/^            old_name='ttitle',$/;"	kind:variable	line:17
+operations	cart/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+operations	cart/migrations/0002_auto_20170105_1011.py	/^    operations = [$/;"	kind:variable	line:14
+operations	goods/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+operations	goods/migrations/0002_goodsinfo_ginfo.py	/^    operations = [$/;"	kind:variable	line:14
+operations	goods/migrations/0003_goodsinfo_gclick.py	/^    operations = [$/;"	kind:variable	line:14
+operations	goods/migrations/0004_auto_20170105_1855.py	/^    operations = [$/;"	kind:variable	line:14
+operations	goods/migrations/0005_auto_20170106_1001.py	/^    operations = [$/;"	kind:variable	line:14
+operations	goods/migrations/0006_auto_20170106_1657.py	/^    operations = [$/;"	kind:variable	line:14
+operations	goods/migrations/0007_auto_20170109_1251.py	/^    operations = [$/;"	kind:variable	line:14
+operations	goods/migrations/0007_auto_20170109_1302.py	/^    operations = [$/;"	kind:variable	line:14
+operations	goods/migrations/0008_auto_20170109_1707.py	/^    operations = [$/;"	kind:variable	line:14
+operations	goods/migrations/0008_merge_20170109_1312.py	/^    operations = [$/;"	kind:variable	line:15
+operations	goods/migrations/0009_merge_20170110_1723.py	/^    operations = [$/;"	kind:variable	line:15
+operations	order/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+operations	order/migrations/0002_auto_20170105_1011.py	/^    operations = [$/;"	kind:variable	line:15
+operations	order/migrations/0003_auto_20170105_1448.py	/^    operations = [$/;"	kind:variable	line:14
+operations	order/migrations/0004_auto_20170105_2023.py	/^    operations = [$/;"	kind:variable	line:14
+operations	order/migrations/0005_auto_20170105_2308.py	/^    operations = [$/;"	kind:variable	line:14
+operations	order/migrations/0006_auto_20170105_2338.py	/^    operations = [$/;"	kind:variable	line:14
+operations	order/migrations/0007_auto_20170106_0057.py	/^    operations = [$/;"	kind:variable	line:14
+operations	order/migrations/0008_auto_20170106_0205.py	/^    operations = [$/;"	kind:variable	line:14
+operations	users/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	users/migrations/0002_auto_20170105_1446.py	/^    operations = [$/;"	kind:variable	line:14
+operations	users/migrations/0002_auto_20170105_1620.py	/^    operations = [$/;"	kind:variable	line:14
+operations	users/migrations/0002_auto_20170105_1855.py	/^    operations = [$/;"	kind:variable	line:14
+operations	users/migrations/0002_auto_20170106_1455.py	/^    operations = [$/;"	kind:variable	line:14
+operations	users/migrations/0003_merge_20170105_2306.py	/^    operations = [$/;"	kind:variable	line:15
+operations	users/migrations/0004_merge_20170106_1428.py	/^    operations = [$/;"	kind:variable	line:15
+operations	users/migrations/0004_merge_20170109_1005.py	/^    operations = [$/;"	kind:variable	line:16
+operations	users/migrations/0005_merge_20170106_1933.py	/^    operations = [$/;"	kind:variable	line:15
+operations	users/migrations/0006_merge_20170109_1237.py	/^    operations = [$/;"	kind:variable	line:15
+operations	users/migrations/0006_merge_20170109_1240.py	/^    operations = [$/;"	kind:variable	line:15
+operations	users/migrations/0007_merge_20170110_1722.py	/^    operations = [$/;"	kind:variable	line:15
+operations	users/migrations/0008_userinfo_sendee.py	/^    operations = [$/;"	kind:variable	line:14
+options	cart/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:26
+options	cart/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:38
+options	goods/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:27
+options	goods/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:38
+options	order/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:28
+options	order/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:41
+order	order/models.py	/^    order = models.ForeignKey(OrderInfo)    # 对应订单编号$/;"	kind:variable	line:44
+orderState	order/models.py	/^    def orderState(self):$/;"	kind:member	line:35
+ototal	order/models.py	/^    ototal = models.DecimalField('总价', max_digits=7, decimal_places=2, default=0)    # 订单总金额$/;"	kind:variable	line:17
+payTime	order/models.py	/^    payTime = models.DateTimeField('支付时间',null=True, default=None)    # 支付时间$/;"	kind:variable	line:20
+phoneNumber	users/models.py	/^    phoneNumber = models.CharField('联系方式',max_length=11)$/;"	kind:variable	line:13
+place_order	order/views.py	/^def place_order(request):$/;"	kind:function	line:21
+preserve_default	goods/migrations/0005_auto_20170106_1001.py	/^            preserve_default=False,$/;"	kind:variable	line:24
+preserve_default	goods/migrations/0008_auto_20170109_1707.py	/^            preserve_default=False,$/;"	kind:variable	line:24
+preserve_default	order/migrations/0002_auto_20170105_1011.py	/^            preserve_default=False,$/;"	kind:variable	line:20
+preserve_default	users/migrations/0008_userinfo_sendee.py	/^            preserve_default=False,$/;"	kind:variable	line:19
+price	cart/models.py	/^    def price(self):$/;"	kind:member	line:33
+price	order/models.py	/^    price = models.DecimalField('价格', max_digits=5, decimal_places=2)    # 商品提交时的价格$/;"	kind:variable	line:47
+process_request	tiantianshengxian/requestHandler.py	/^    def process_request(self, request):$/;"	kind:member	line:8
+pwd	users/models.py	/^    pwd = models.CharField('密码',max_length=40)$/;"	kind:variable	line:10
+register	users/views.py	/^def register(request):$/;"	kind:function	line:9
+registerHandle	users/views.py	/^def registerHandle(request):$/;"	kind:function	line:30
+requestHandler.py	tiantianshengxian/requestHandler.py	1;"	kind:file	line:1
+save	order/models.py	/^    def save(self):$/;"	kind:member	line:25
+sendee	users/models.py	/^    sendee = models.CharField('收件人', max_length=20)$/;"	kind:variable	line:19
+settings.py	tiantianshengxian/settings.py	1;"	kind:file	line:1
+shaOne	users/views.py	/^def shaOne(spwd):$/;"	kind:function	line:12
+state	order/models.py	/^    state = models.CharField('订单状态', max_length=1, default='1')    # 订单状态（0:已删除,1:待付款,2:已取消,3:已付款）$/;"	kind:variable	line:18
+submit_order	order/views.py	/^def submit_order(request):$/;"	kind:function	line:73
+tests.py	cart/tests.py	1;"	kind:file	line:1
+tests.py	goods/tests.py	1;"	kind:file	line:1
+tests.py	order/tests.py	1;"	kind:file	line:1
+tests.py	users/tests.py	1;"	kind:file	line:1
+tests.py	website/tests.py	1;"	kind:file	line:1
+title	goods/models.py	/^	title = models.CharField('商品分类',max_length=20)  #商品类别名称$/;"	kind:variable	line:7
+total	cart/models.py	/^    def total(self):$/;"	kind:member	line:26
+total	cart/models.py	/^    total = models.DecimalField('小计',max_digits=7,decimal_places=2)$/;"	kind:variable	line:19
+ucenterInfo	users/views.py	/^def ucenterInfo(request):$/;"	kind:function	line:101
+ucenterSite	users/views.py	/^def ucenterSite(request):$/;"	kind:function	line:111
+urlpatterns	cart/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	goods/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	order/urls.py	/^urlpatterns = [$/;"	kind:variable	line:7
+urlpatterns	tiantianshengxian/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	users/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
+urlpatterns	website/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urls.py	cart/urls.py	1;"	kind:file	line:1
+urls.py	goods/urls.py	1;"	kind:file	line:1
+urls.py	order/urls.py	1;"	kind:file	line:1
+urls.py	tiantianshengxian/urls.py	1;"	kind:file	line:1
+urls.py	users/urls.py	1;"	kind:file	line:1
+urls.py	website/urls.py	1;"	kind:file	line:1
+user	cart/models.py	/^    user = models.ForeignKey(UserInfo)   #获取用户信息$/;"	kind:variable	line:8
+user	order/models.py	/^    user = models.ForeignKey(UserInfo)    # 订单拥有者$/;"	kind:variable	line:16
+user_center_order	order/views.py	/^def user_center_order(request):$/;"	kind:function	line:35
+views.py	cart/views.py	1;"	kind:file	line:1
+views.py	goods/views.py	1;"	kind:file	line:1
+views.py	order/views.py	1;"	kind:file	line:1
+views.py	users/views.py	1;"	kind:file	line:1
+views.py	website/views.py	1;"	kind:file	line:1
+wrapper	tiantianshengxian/derector.py	/^    def wrapper(request, *args, **kwargs):$/;"	kind:function	line:8
+wsgi.py	tiantianshengxian/wsgi.py	1;"	kind:file	line:1

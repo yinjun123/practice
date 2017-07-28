@@ -1,0 +1,115 @@
+{%extends "_base.html"%}
+{%block title%}天天生鲜-商品列表{%endblock%}
+
+{% block script %}
+{{ block.super }}
+<script type="text/javascript">
+	$(function(){
+		$('.add_goods').click(function(){
+			var num=parseFloat($('.goods_count').html(),10) + 1;
+			console.log(num)
+		$('.goods_count').html(num);
+		alert($('.title').attr("g_id"));
+		})
+	})
+</script>
+{% endblock %}
+
+
+{%block content%}
+
+
+
+	<div class="search_bar clearfix">
+		<a href="index.html" class="logo fl"><img src="/static/images/logo.png"></a>
+		<div class="search_con fl">
+			<input type="text" class="input_text fl" name="" placeholder="搜索商品">
+			<input type="button" class="input_btn fr" name="" value="搜索">
+		</div>
+		<div class="guest_cart fr">
+			<a href="#" class="cart_name fl">我的购物车</a>
+			<div class="goods_count fl">0</div>
+		</div>
+	</div>
+
+	<div class="navbar_con">
+		<div class="navbar clearfix">
+			<div class="subnav_con fl">
+				<h1>全部商品分类</h1>	
+				<span></span>	
+					
+
+				<ul class="subnav">
+				{% for i in type_all %}	
+					<li><a href="/goods/{{i.cssClass}}/?num=1" class={{i.cssClass}}>{{i.title}}</a></li>
+				{% endfor %}
+			
+				</ul>
+			</div>
+			<ul class="navlist fl">
+				<li><a href="">首页</a></li>
+				<li class="interval">|</li>
+				<li><a href="">手机生鲜</a></li>
+				<li class="interval">|</li>
+				<li><a href="">抽奖</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="breadcrumb">
+		<a href="#">全部分类</a>
+		<span>></span>
+		<a href="#">{{ type_goods.title }}</a>
+	</div>
+
+	<div class="main_wrap clearfix">
+		<div class="l_wrap fl clearfix">
+			<div class="new_goods">
+				<h3>新品推荐</h3>
+				<ul>
+					<li>
+					{% for b in a%}
+
+						<a href="/goods/{{b.gtype.cssClass}}/{{b.gtitle}}"><img src={{b.gpath}}></a>
+						<h4><a href="#">{{b.gtitle}}</a></h4>
+						<div class="prize">￥{{b.gprice}}</div>					
+					{% endfor%}
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="r_wrap fr clearfix">
+			<div class="sort_bar">
+				<a href="/goods/{{ cssclass }}/?num=1&order=id" class="active">默认</a>
+				<a href="/goods/{{ cssclass }}/?num=1&order=gprice">价格</a>
+				<a href="/goods/{{ cssclass }}/?num=1&order=gclick">人气</a>
+			</div>
+
+			<ul class="goods_type_list clearfix">
+			{% for temp in page %}
+				<li>
+					<a href="/goods/{{temp.gtype.cssClass}}/{{temp.gtitle}}"><img src={{temp.gpath}}></a>
+					<h4><a href="detail.html" class="title" g_id={{ temp.id }}>{{temp.gtitle}}</a></h4>
+					<div class="operate">
+						<span class="prize">￥{{temp.gprice}}</span>
+						<span class="unit">{{temp.gprice}}/500g</span>
+						<a href="#" class="add_goods" title="加入购物车"></a>
+					</div>
+				</li>
+			{% endfor %}
+			</ul>
+			<div class="pagenation">
+				<a href="#"><上一页</a>
+				{% for index in page.paginator.page_range %}
+					{{ index }}			
+				<a href="/goods/{{ cssclass }}/?num={{ index }}&order={{ order }}">{{ index }}</a>				
+				{% endfor %}
+				<a href="#">下一页></a>
+				</div>
+		</div>
+	</div>
+
+
+{%endblock%}

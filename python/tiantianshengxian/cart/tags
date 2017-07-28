@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170105_1011.py	migrations/0002_auto_20170105_1011.py	1;"	kind:file	line:1
+CartConfig	apps.py	/^class CartConfig(AppConfig):$/;"	kind:class	line:6
+CartInfo	models.py	/^class CartInfo(models.Model):$/;"	kind:class	line:7
+GoodDetailInfo	models.py	/^class GoodDetailInfo(models.Model):$/;"	kind:class	line:13
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:10
+Meta	models.py	/^    class Meta:$/;"	kind:class	line:17
+Migration	migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	migrations/0002_auto_20170105_1011.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+__init__.py	__init__.py	1;"	kind:file	line:1
+__init__.py	migrations/__init__.py	1;"	kind:file	line:1
+admin.py	admin.py	1;"	kind:file	line:1
+apps.py	apps.py	1;"	kind:file	line:1
+cart	views.py	/^def cart(request):$/;"	kind:function	line:4
+cart_good	models.py	/^    cart_good = models.ForeignKey('CartInfo')   #购物车商品$/;"	kind:variable	line:15
+count	models.py	/^    count = models.IntegerField('数量', default=0)  #总商品件数$/;"	kind:variable	line:9
+db_table	models.py	/^        db_table = 'cartinfo'$/;"	kind:variable	line:11
+db_table	models.py	/^        db_table = 'gooddetailinfo'$/;"	kind:variable	line:18
+dependencies	migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+dependencies	migrations/0002_auto_20170105_1011.py	/^    dependencies = [$/;"	kind:variable	line:10
+field	migrations/0002_auto_20170105_1011.py	/^            field=models.IntegerField(default=0, verbose_name='\\u6570\\u91cf'),$/;"	kind:variable	line:18
+field	migrations/0002_auto_20170105_1011.py	/^            field=models.IntegerField(default=0, verbose_name='\\u6570\\u91cf'),$/;"	kind:variable	line:23
+fields	migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+fields	migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:32
+goodCount	models.py	/^    goodCount = models.IntegerField('数量', default=0)  #单件商品数量$/;"	kind:variable	line:16
+goods	models.py	/^    goods = models.ForeignKey(GoodsInfo)  #用户页商品详情$/;"	kind:variable	line:14
+initial	migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+model_name	migrations/0002_auto_20170105_1011.py	/^            model_name='cartinfo',$/;"	kind:variable	line:16
+model_name	migrations/0002_auto_20170105_1011.py	/^            model_name='gooddetailinfo',$/;"	kind:variable	line:21
+models.py	models.py	1;"	kind:file	line:1
+name	apps.py	/^    name = 'cart'$/;"	kind:variable	line:7
+name	migrations/0001_initial.py	/^            name='CartInfo',$/;"	kind:variable	line:20
+name	migrations/0001_initial.py	/^            name='GoodDetailInfo',$/;"	kind:variable	line:31
+name	migrations/0002_auto_20170105_1011.py	/^            name='count',$/;"	kind:variable	line:17
+name	migrations/0002_auto_20170105_1011.py	/^            name='goodCount',$/;"	kind:variable	line:22
+operations	migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+operations	migrations/0002_auto_20170105_1011.py	/^    operations = [$/;"	kind:variable	line:14
+options	migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:26
+options	migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:38
+tests.py	tests.py	1;"	kind:file	line:1
+urlpatterns	urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urls.py	urls.py	1;"	kind:file	line:1
+user	models.py	/^    user = models.ForeignKey(UserInfo)    #获取用户信息$/;"	kind:variable	line:8
+views.py	views.py	1;"	kind:file	line:1

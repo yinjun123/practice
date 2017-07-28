@@ -1,0 +1,106 @@
+{%extends "_base.html"%}
+{%block title%}天天生鲜-商品列表{%endblock%}
+
+{% block script %}
+{{ block.super }}
+<script type="text/javascript">
+
+// 加入购物车
+function addCart(item,count){
+    var goods_id = $(item).attr('goods-id');
+    $.post('/cart/addCart/',
+        {gid:goods_id,goodCount:count},
+        function(data){
+            $('.goods_count').html(data);
+        })
+}
+
+
+{#  $(function () {#}
+{#      $(".add_goods").click(function () {#}
+{#          var id = $(this).parent().siblings("#goodsId").text()         #}
+{#					var num=parseFloat($('.goods_count').html(),10) + 1;					#}
+{# 					console.log(num)#}
+{# 					$.post('/cart/addCart/',{gid:id,goodcount:num},function(date){#}
+{#      		console.log(date)#}
+{##}
+{#      	})#}
+{#    })#}
+{#  })#}
+	// $(function(){
+	// 	$('.add_goods').click(function(){
+	// 		var num=parseFloat($('.goods_count').html(),10) + 1;
+	// 		console.log(num)
+	// 		$('.goods_count').html(num);
+	// 		alert($('#goodsId').text());
+	// 	})
+	// })
+</script>
+{% endblock %}
+
+
+{%block content%}
+    {% include '_index_head.html' %}
+
+	<div class="breadcrumb">
+		<a href="#">全部分类</a>
+		<span>></span>
+		<a href="#">{{ type_goods.title }}</a>
+	</div>
+
+	<div class="main_wrap clearfix">
+		<div class="l_wrap fl clearfix">
+			<div class="new_goods">
+				<h3>新品推荐</h3>
+				<ul>
+					<li>
+					{% for b in a%}
+
+						<a href="/goods/{{b.gtype.cssClass}}/{{b.gtitle}}"><img src={{b.gpath}}></a>
+						<h4><a href="#">{{b.gtitle}}</a></h4>
+						<div class="prize">￥{{b.gprice}}</div>					
+					{% endfor%}
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="r_wrap fr clearfix">
+			<div class="sort_bar">
+				<a href="/goods/{{ cssclass }}/?num=1&order=id" class={{active}}>默认</a>
+				<a href="/goods/{{ cssclass }}/?num=1&order=gprice" class={{active1}}>价格</a>
+				<a href="/goods/{{ cssclass }}/?num=1&order=gclick" class={{active2}}>人气</a>
+			</div>
+
+			<ul class="goods_type_list clearfix">
+			{% for temp in page %}
+				<li>
+					<a href="/goods/{{temp.gtype.cssClass}}/{{temp.gtitle}}"><img src={{temp.gpath}}></a>
+					<h4><a href="detail.html" class="title">{{temp.gtitle}}</a></h4>
+					<div class="operate">
+						<span class="prize">￥{{temp.gprice}}</span>
+						<span class="unit">{{temp.gprice}}/500g</span>
+						<a href="javascript:;" class="add_goods" title="加入购物车" goods-id="{{ temp.id }}" onclick="addCart(this,1)"></a>
+					</div>
+				</li>
+			{% endfor %}
+			</ul>
+			<div class="pagenation">
+			{% if has_previous %}	
+
+				<a href="/goods/{{ cssclass }}/?num={{ num1|add:'-1' }}&order={{ order }}" ><上一页</a>
+			{% else %}
+			
+				<!-- <a href="/goods/{{ cssclass }}/?num={{ num1|add:'1' }}&order={{ order }}" ><上一页</a>  --> 
+			{% endif %}
+				{% for index in page.paginator.page_range %}
+					{{ index }}			
+				<a href="/goods/{{ cssclass }}/?num={{ index }}&order={{ order }}">{{ index }}</a>				
+				{% endfor %}
+				
+				<a href="/goods/{{ cssclass }}/?num={{ num1|add:'1' }}&order={{ order }}">下一页></a>
+			</div>
+		</div>
+	</div>
+{%endblock%}
